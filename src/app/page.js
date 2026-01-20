@@ -447,9 +447,7 @@ export default function HomePage() {
           {/* Left: 2 circles stacked */}
           <div className="rounded-3xl border border-border bg-white p-6 shadow-sm">
             <div className="text-sm font-semibold text-foreground">Quick highlights</div>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Flags/landmarks work great as circular “quick picks”.
-            </p>
+          
 
             <div className="mt-6 grid gap-5">
               {circlesTop.map((d) => (
