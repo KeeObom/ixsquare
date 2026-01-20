@@ -395,9 +395,7 @@ export default function HomePage() {
               Destinations clients ask for the most
             </h2>
 
-            <p className="mt-2 max-w-2xl text-muted-foreground">
-              Use landmarks or flags. These are intentionally large so the images show clearly.
-            </p>
+          
           </div>
 
           <Link
