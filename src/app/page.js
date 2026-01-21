@@ -6,7 +6,7 @@ const services = [
     title: "Study Abroad & Education Placement",
     desc: "Universities, colleges, and pathway programs worldwide.",
     img: "/images/education.jpg",
-    href: "/services",
+    href: "/education-travel",
   },
   {
     title: "Visa & Immigration Services",
@@ -110,7 +110,9 @@ export default function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero.jpg"
+            // src="/images/hero.jpg"
+            // src="/images/hero_study.jpeg"
+            src="/images/hero_study_gpt.png"
             alt="DiAnixSquare hero background"
             fill
             priority
@@ -127,9 +129,17 @@ export default function HomePage() {
             Global Education • Travel • Immigration
           </div>
 
-          <h1 className="mt-5 max-w-2xl text-4xl font-semibold tracking-tight text-white md:text-6xl">
+          {/* <h1 className="mt-5 max-w-2xl text-4xl font-semibold tracking-tight text-white md:text-6xl">
             Move Beyond Borders With Confidence
+          </h1> */}
+
+          <h1 className="mt-5 max-w-2xl text-4xl font-semibold tracking-tight text-white md:text-6xl">
+            STUDY ABROAD
           </h1>
+
+          <p className="mt-4 max-w-2xl text-lg text-white/85">
+            Move Beyond Borders With Confidence
+          </p>
 
           <p className="mt-4 max-w-2xl text-lg text-white/85">
             Study, travel, invest, relocate, and fly globally with expert guidance every step of the way.
@@ -162,7 +172,7 @@ export default function HomePage() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-sm text-muted-foreground">
             <span className="h-2 w-2 rounded-full bg-accent" />
-            Who we help
+            Who we serve
           </div>
           <h2 className="mt-4 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
             Built for students, families, professionals, investors, and travelers

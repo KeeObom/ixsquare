@@ -66,7 +66,8 @@ export default function EducationTravelPage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/edu/edu-hero.jpg"
+            // src="/images/edu/edu-hero.jpg"
+            src="/images/edu/education_and_travel.jpeg"
             alt="Education & Travel"
             fill
             priority

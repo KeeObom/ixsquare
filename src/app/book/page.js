@@ -39,8 +39,8 @@ const destinations = [
 
 const quickPromises = [
   {
-    title: "Clarity first",
-    desc: "We explain your options, timelines, and required documents in a simple, structured way.",
+    title: "Clarity",
+    desc: "We explain your options, timelines, and required documents in a simple way.",
   },
   {
     title: "Compliant guidance",
@@ -365,7 +365,7 @@ export default function BookPage() {
 
                 {/* FAQ */}
                 <div className="mt-6 rounded-3xl border border-border bg-zinc-50 p-6">
-                  <div className="text-sm font-semibold text-foreground">Quick FAQ</div>
+                  <div className="text-sm font-semibold text-foreground">FAQ</div>
                   <div className="mt-4 space-y-4">
                     {faqs.map((f) => (
                       <div key={f.q} className="rounded-2xl border border-border bg-white p-4">
