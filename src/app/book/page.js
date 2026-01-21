@@ -365,7 +365,7 @@ export default function BookPage() {
 
                 {/* FAQ */}
                 <div className="mt-6 rounded-3xl border border-border bg-zinc-50 p-6">
-                  <div className="text-sm font-semibold text-foreground">FAQ</div>
+                  <div className="text-sm font-semibold text-foreground">FAQs</div>
                   <div className="mt-4 space-y-4">
                     {faqs.map((f) => (
                       <div key={f.q} className="rounded-2xl border border-border bg-white p-4">

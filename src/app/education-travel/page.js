@@ -345,7 +345,7 @@ export default function EducationTravelPage() {
 
         {/* HOW IT WORKS (simple + clean) */}
         <div className="mt-16 rounded-3xl border border-border bg-zinc-50 p-6 md:p-8">
-          <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-sm text-muted-foreground">
+          {/* <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-sm text-muted-foreground">
             <span className="h-2 w-2 rounded-full bg-accent" />
             How it works
           </div>
@@ -354,7 +354,39 @@ export default function EducationTravelPage() {
           </h3>
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
             Transparent steps, realistic timelines, and responsive communication.
-          </p>
+          </p> */}
+
+          <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
+            {/* Left: Text */}
+            <div className="lg:col-span-7">
+              <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-sm text-muted-foreground">
+                <span className="h-2 w-2 rounded-full bg-accent" />
+                How it works
+              </div>
+
+              <h3 className="mt-4 text-2xl font-semibold tracking-tight text-foreground">
+                A clear path from planning to action
+              </h3>
+
+              <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
+                Transparent steps, realistic timelines, and responsive communication.
+              </p>
+            </div>
+
+            {/* Right: Ambassador image */}
+            <div className="lg:col-span-5">
+              <div className="relative h-64 max-w-xs w-full overflow-hidden rounded-3xl border border-border shadow-sm">
+                <Image
+                  src="/images/ambassador.jpg"
+                  alt="Student preparing for international study"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+              </div>
+            </div>
+          </div>
+
 
           <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {howItWorks.map((s, i) => (
