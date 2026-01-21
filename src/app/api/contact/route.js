@@ -15,7 +15,7 @@ export async function POST(req) {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
     const toTeam = process.env.CONTACT_TO || "travels.booking@dianixsquare.com";
-    const from = process.env.CONTACT_FROM || "DiAnixSquare <onboarding@resend.dev>";
+    const from = process.env.CONTACT_FROM || "DiAnixSquare <travels.booking@dianixsquare.com>";
 
     const teamSubject = `New Consultation Request — ${service} (${destination})`;
 
