@@ -123,8 +123,8 @@ export default function HomePage() {
           <div className="pointer-events-none absolute -right-24 top-20 h-72 w-72 rounded-full bg-accent/25 blur-3xl" />
         </div>
 
-        <div className="relative mx-auto max-w-6xl px-4 pb-10 pt-16 md:pb-16 md:pt-24">
-          <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white/10 px-3 py-1 text-sm text-white backdrop-blur">
+        <div className="relative mx-auto max-w-6xl px-4 pb-10 pt-10 md:pb-16 md:pt-16">
+          <div className="inline-flex md:-mt-8 items-center gap-2 rounded-full border border-accent/40 bg-white/10 px-3 py-1 text-sm text-white backdrop-blur">
             <span className="h-2 w-2 rounded-full bg-accent" />
             Global Education • Travel • Immigration
           </div>
@@ -133,17 +133,18 @@ export default function HomePage() {
             Move Beyond Borders With Confidence
           </h1> */}
 
-          <h1 className="mt-5 max-w-2xl text-4xl font-semibold tracking-tight text-white md:text-6xl">
-            STUDY ABROAD
+          <h1 className="mt-5 max-w-2xl text-2xl font-semibold tracking-tight text-white md:text-2xl">
+            STUDY ABROAD / CITIZENSHIP BY INVESTMENT /  VISA TO TRAVEL THE WORLD / VACATION TOURISM / FLIGHT BOOKINGS
+
           </h1>
 
-          <p className="mt-4 max-w-2xl text-lg text-white/85">
-            Move Beyond Borders With Confidence
+          <p className="mt-4 max-w-2xl text-lg italic text-white/85">
+            ...move beyond borders with confidence
           </p>
 
-          <p className="mt-4 max-w-2xl text-lg text-white/85">
+          {/* <p className="mt-4 max-w-2xl text-lg text-white/85">
             Study, travel, invest, relocate, and fly globally with expert guidance every step of the way.
-          </p>
+          </p> */}
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

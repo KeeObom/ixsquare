@@ -36,6 +36,11 @@ const education = [
   { title: "Visa application guidance", desc: "Aligned support for your study route and destination requirements." },
   { title: "Travel planning & flight booking", desc: "Travel support to make your move smooth and coordinated." },
   { title: "Pre-departure briefing", desc: "A clear checklist for settlement readiness, timelines, and next steps." },
+  {
+    title: "Scholarship & Funding Support",
+    desc: "Scholarship discovery guidance, eligibility checks, document review, and strong personal statement support (where applicable).",
+  },
+  
 ];
 
 const travel = [
@@ -67,7 +72,8 @@ export default function EducationTravelPage() {
         <div className="absolute inset-0">
           <Image
             // src="/images/edu/edu-hero.jpg"
-            src="/images/edu/education_and_travel.jpeg"
+            // src="/images/edu/education_and_travel.jpeg"
+            src="/images/edu/education_hero_gpt.png"
             alt="Education & Travel"
             fill
             priority
@@ -89,7 +95,7 @@ export default function EducationTravelPage() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-lg text-white/85">
-            Study destination planning for students, plus end-to-end travel support for professionals and tourists.
+            Scholarship support, Study destination planning for students, plus end-to-end travel support for professionals and tourists.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -165,7 +171,8 @@ export default function EducationTravelPage() {
             <div className="mt-8 rounded-3xl border border-accent/25 bg-accent/10 p-6">
               <div className="text-sm font-semibold text-foreground">Quick note</div>
               <p className="mt-2 text-sm text-muted-foreground">
-                We align your academic background, career goals, and budget with suitable institutions and pathways.
+                We align your academic background, career goals, and budget with suitable institutions and pathways — and we can also
+                guide scholarship/funding steps where applicable.
               </p>
             </div>
           </div>
