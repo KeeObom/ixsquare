@@ -133,12 +133,31 @@ export default function HomePage() {
             Move Beyond Borders With Confidence
           </h1> */}
 
-          <h1 className="mt-5 max-w-2xl text-2xl font-semibold tracking-tight text-white md:text-2xl">
-            STUDY ABROAD / CITIZENSHIP BY INVESTMENT /  VISA TO TRAVEL THE WORLD / VACATION TOURISM / FLIGHT BOOKINGS
+
+          {/* <h1 className="mt-5 max-w-2xl text-2xl font-semibold tracking-tight text-white md:text-2xl"> */}
+          <h1
+            className="
+              mt-5 max-w-2xl
+              text-2xl font-semibold tracking-tight
+              text-white
+              md:text-2xl
+            "
+            style={{
+              textShadow: `
+                -1px -1px 0 #D4AF37,
+                1px -1px 0 #D4AF37,
+                -1px  1px 0 #D4AF37,
+                1px  1px 0 #D4AF37,
+                0px  0px 8px rgba(0,0,0,0.6)
+              `,
+            }}
+          >
+          {/* <h1 className="mt-5 max-w-2xl text-2xl font-semibold tracking-tight text-black md:text-2xl"> */}
+            STUDY ABROAD * CITIZENSHIP BY INVESTMENT *  VISA TO TRAVEL THE WORLD * VACATION TOURISM * FLIGHT BOOKINGS
 
           </h1>
 
-          <p className="mt-4 max-w-2xl text-lg italic text-white/85">
+          <p className="mt-4 max-w-2xl text-lg italic text-white/100">
             ...move beyond borders with confidence
           </p>
 
