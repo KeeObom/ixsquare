@@ -9,19 +9,19 @@ const services = [
     href: "/education-travel",
   },
   {
-    title: "Visa & Immigration Services",
+    title: "Consultation on Immigration Services & Policies",
     desc: "Transparent, compliant, and up-to-date guidance.",
     img: "/images/visa.jpg",
     href: "/visa-immigration",
   },
   {
-    title: "Permanent Residence & Citizenship",
+    title: "Permanent Residence & Citizenship by Investment",
     desc: "Structured pathways for settlement and investment migration.",
     img: "/images/pr-citizenship.jpg",
     href: "/book",
   },
   {
-    title: "Business & Leisure Travel",
+    title: "Tourism and Visit Visas",
     desc: "Corporate and personal travel support end-to-end.",
     img: "/images/travel.jpg",
     href: "/education-travel",
