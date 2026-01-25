@@ -47,7 +47,7 @@ const pillars = [
     title: "Business & Leisure Travel",
     desc: "Corporate and personal travel planning, visa assistance, and itinerary coordination.",
     img: "/images/travel.jpg",
-    href: "/book",
+    href: "/travel",
     tag: "Planning • Advisory • Support",
     bullets: ["Itinerary planning", "Visa support (where needed)", "Travel advisory"],
   },
@@ -55,7 +55,7 @@ const pillars = [
     title: "Local & International Flight Booking",
     desc: "Reliable reservations for domestic and international flights with professional assistance.",
     img: "/images/flights.jpg",
-    href: "/book",
+    href: "/flight",
     tag: "Competitive fares • Fast support",
     bullets: ["Fast booking support", "Flexible options", "Corporate + personal trips"],
   },
@@ -289,10 +289,10 @@ export default function ServicesPage() {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
-                href="/book"
+                href="/flight"
                 className="rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition hover:opacity-95"
               >
-                Request a Quote
+                Book Flight
               </Link>
 
               <a

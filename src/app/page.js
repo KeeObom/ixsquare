@@ -24,13 +24,13 @@ const services = [
     title: "Tourism and Visit Visas",
     desc: "Corporate and personal travel support end-to-end.",
     img: "/images/travel.jpg",
-    href: "/education-travel",
+    href: "/travel",
   },
   {
     title: "Local & International Flight Booking",
     desc: "Competitive fares with professional assistance.",
     img: "/images/flights.jpg",
-    href: "/book",
+    href: "/flight",
   },
 ];
 

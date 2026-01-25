@@ -12,6 +12,7 @@ const nav = [
   { label: "Visa & Immigration", href: "/visa-immigration" },
   { label: "Education", href: "/education-travel" },
   { label: "Tourism", href: "/travel" },
+  { label: "Flight Booking", href: "/flight" },
   { label: "Contact", href: "/contact" },
 ];
 

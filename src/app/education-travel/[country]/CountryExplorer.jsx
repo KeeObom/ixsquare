@@ -81,13 +81,20 @@ export default function CountryExplorer({ countryKey, countryName, flagSrc }) {
         <div className={`rounded-3xl border border-border bg-white p-5 ${step === 2 ? "shadow-sm" : ""}`}>
           <div className="flex items-center justify-between">
             <div className="text-sm font-semibold text-foreground">2) Choose intake</div>
-            <button
+            <Link
+              href="/education-travel"
+              className="text-xs font-semibold text-primary hover:opacity-90"
+            >
+              ← Back
+            </Link>
+
+            {/* <button
               type="button"
               onClick={() => setStep(1)}
               className="text-xs font-semibold text-primary hover:opacity-90"
             >
               Back
-            </button>
+            </button> */}
           </div>
 
           <div className="mt-3 grid gap-2">
@@ -118,13 +125,20 @@ export default function CountryExplorer({ countryKey, countryName, flagSrc }) {
         <div className={`rounded-3xl border border-border bg-white p-5 ${step === 3 ? "shadow-sm" : ""}`}>
           <div className="flex items-center justify-between">
             <div className="text-sm font-semibold text-foreground">3) Universities</div>
-            <button
+            <Link
+              href="/education-travel"
+              className="text-xs font-semibold text-primary hover:opacity-90"
+            >
+              ← Back
+            </Link>
+
+            {/* <button
               type="button"
               onClick={() => setStep(2)}
               className="text-xs font-semibold text-primary hover:opacity-90"
             >
               Back
-            </button>
+            </button> */}
           </div>
 
           <div className="mt-3 space-y-2">
