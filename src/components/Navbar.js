@@ -10,7 +10,8 @@ const nav = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Visa & Immigration", href: "/visa-immigration" },
-  { label: "Education & Travel", href: "/education-travel" },
+  { label: "Education", href: "/education-travel" },
+  { label: "Tourism", href: "/travel" },
   { label: "Contact", href: "/contact" },
 ];
 
