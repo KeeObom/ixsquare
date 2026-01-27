@@ -18,7 +18,7 @@ const services = [
     title: "Permanent Residence & Citizenship by Investment",
     desc: "Structured pathways for settlement and investment migration.",
     img: "/images/pr-citizenship.jpg",
-    href: "/book",
+    href: "/investment",
   },
   {
     title: "Tourism and Visit Visas",
