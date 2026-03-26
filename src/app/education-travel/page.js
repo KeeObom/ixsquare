@@ -186,6 +186,68 @@ export default function EducationPage() {
             </div>
           </div>
 
+          {/* EVENT PROMO */}
+          <div className="mt-10 rounded-3xl border border-accent/30 bg-accent/10 p-6">
+            <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
+              
+              {/* LEFT: FLIER */}
+              <div className="relative overflow-hidden rounded-3xl">
+                <div className="absolute inset-0">
+                  <Image
+                    src="/images/event/uk-event.jpeg"
+                    alt=""
+                    fill
+                    className="object-cover blur-xl scale-110 opacity-40"
+                  />
+                </div>
+
+                <div className="relative flex items-center justify-center p-4">
+                  <Image
+                    src="/images/event/uk-event.jpeg"
+                    alt="UK Study Roadmap Event"
+                    width={420}
+                    height={620}
+                    className="object-contain rounded-xl shadow-lg"
+                  />
+                </div>
+              </div>
+
+              {/* RIGHT: TEXT */}
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-xs text-muted-foreground">
+                  🎓 Upcoming Event
+                </div>
+
+                <h3 className="mt-4 text-xl font-semibold text-foreground">
+                  Proven Roadmap to Studying in the UK & Building a Global Career
+                </h3>
+
+                <p className="mt-3 text-sm text-muted-foreground">
+                  Join this exclusive session to learn step-by-step how to successfully study in the UK, secure your visa, and build a global career pathway.
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <a
+                    href="https://mymently.com/program/anitaositadinma8182/proven-roadmap-to-studying-in-the-uk-and-building-a-global-career"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition hover:opacity-95"
+                  >
+                    Register Now
+                  </a>
+
+                  <Link
+                    href="/book"
+                    className="rounded-2xl border border-accent/60 bg-white px-5 py-3 text-sm font-semibold text-foreground hover:bg-zinc-50"
+                  >
+                    Book Consultation
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
           {/* Right visual */}
           <div className="lg:col-span-5">
             <div className="relative overflow-hidden rounded-3xl border border-border bg-white shadow-sm">

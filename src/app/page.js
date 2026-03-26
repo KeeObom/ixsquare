@@ -110,6 +110,19 @@ export default function HomePage() {
 
   return (
     <main className="bg-white text-zinc-900">
+      <div className="bg-primary text-primary-foreground">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-2 px-4 py-2 text-center text-sm font-medium">
+          <span>🎓 Upcoming Event: Proven Roadmap to Studying in the UK & Building a Global Career</span>
+          <a
+            href="https://mymently.com/program/anitaositadinma8182/proven-roadmap-to-studying-in-the-uk-and-building-a-global-career"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4 hover:opacity-90"
+          >
+            Register now
+          </a>
+        </div>
+      </div>
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
@@ -679,6 +692,108 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+
+          {/* EVENT PROMO */}
+          <section className="border-t border-border bg-zinc-50">
+            <div className="mx-auto max-w-6xl px-4 py-14">
+              <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+
+                {/* LEFT: IMAGE (your flier) */}
+                <div className="relative overflow-hidden rounded-3xl">
+                  {/* Background fill (same image blurred) */}
+                  <div className="absolute inset-0">
+                    <Image
+                      src="/images/event/uk-event.jpeg"
+                      alt=""
+                      fill
+                      className="object-cover blur-xl scale-110 opacity-40"
+                    />
+                  </div>
+
+                  {/* Foreground (actual flier) */}
+                  <div className="relative flex items-center justify-center p-4">
+                    <Image
+                      src="/images/event/uk-event.jpeg"
+                      alt="UK Study Roadmap Event"
+                      width={420}
+                      height={620}
+                      className="object-contain h-auto w-auto rounded-xl shadow-lg"
+                    />
+                  </div>
+                </div>
+
+                {/* LEFT: IMAGE (your flier)
+                <div className="relative overflow-hidden rounded-3xl border border-border bg-white shadow-sm">
+                  <div className="relative h-[520px] w-full bg-white">
+                    <Image
+                      src="/images/event/uk-event.jpeg"
+                      alt="UK Study Roadmap Event"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                </div> */}
+
+                {/* LEFT: IMAGE (your flier)
+                <div className="relative overflow-hidden rounded-3xl border border-border bg-white shadow-sm">
+                  <div className="relative h-[420px] w-full">
+                    <Image
+                      src="/images/event/uk-event.jpeg" // 👈 put your flier here
+                      alt="UK Study Roadmap Event"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div> */}
+
+                {/* RIGHT: TEXT */}
+                <div>
+                  <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-white px-3 py-1 text-sm text-muted-foreground">
+                    <span className="h-2 w-2 rounded-full bg-accent" />
+                    Upcoming Event
+                  </div>
+
+                  <h2 className="mt-4 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
+                    Proven Roadmap to Studying in the UK & Building a Global Career
+                  </h2>
+
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    Learn the exact step-by-step strategy to study in the UK, secure admission,
+                    prepare your visa, and position yourself for global career opportunities.
+                  </p>
+
+                  <div className="mt-6 grid gap-3 text-sm text-muted-foreground">
+                    <div>✔ Step-by-step UK study pathway</div>
+                    <div>✔ Visa strategy & common mistakes</div>
+                    <div>✔ Funding & scholarship insights</div>
+                    <div>✔ Post-study work & career planning</div>
+                  </div>
+
+                  <div className="mt-8 flex flex-wrap gap-3">
+                    <a
+                      href="https://mymently.com/program/anitaositadinma8182/proven-roadmap-to-studying-in-the-uk-and-building-a-global-career"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition hover:opacity-95"
+                    >
+                      Register Now
+                    </a>
+
+                    <Link
+                      href="/education-travel"
+                      className="rounded-2xl border border-accent/60 bg-white px-5 py-3 text-sm font-semibold text-foreground transition hover:bg-white/60"
+                    >
+                      Explore Study Options
+                    </Link>
+                  </div>
+
+                  <div className="mt-4 text-xs text-muted-foreground">
+                    Limited slots available • Early registration recommended
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* TESTIMONIALS + SURVEY CTA */}
           <div className="mt-12">
