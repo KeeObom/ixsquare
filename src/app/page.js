@@ -116,13 +116,6 @@ export default function HomePage() {
           <span>
             🇶🇦 Qatar Independence Day Promo — 5 Nights All-Inclusive Package for ₦2.5M per person
           </span>
-
-          <a
-            href="#qatar-package"
-            className="font-semibold underline underline-offset-4 transition hover:opacity-80"
-          >
-            View Package →
-          </a>
         </div>
       </div>
      
