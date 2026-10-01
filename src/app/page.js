@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import EventFlyers from "@/components/EventFlyers";
 
 const services = [
   {
@@ -111,18 +112,20 @@ export default function HomePage() {
   return (
     <main className="bg-white text-zinc-900">
       <div className="bg-primary text-primary-foreground">
-        {/* <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-2 px-4 py-2 text-center text-sm font-medium">
-          <span>🎓 Upcoming Event: Proven Roadmap to Studying in the UK & Building a Global Career</span>
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-3 gap-y-1 px-4 py-2 text-center text-sm font-medium">
+          <span>
+            🇶🇦 Qatar Independence Day Promo — 5 Nights All-Inclusive Package for ₦2.5M per person
+          </span>
+
           <a
-            href="https://mymently.com/program/anitaositadinma8182/proven-roadmap-to-studying-in-the-uk-and-building-a-global-career"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4 hover:opacity-90"
+            href="#qatar-package"
+            className="font-semibold underline underline-offset-4 transition hover:opacity-80"
           >
-            Register now
+            View Package →
           </a>
-        </div> */}
+        </div>
       </div>
+     
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
@@ -238,6 +241,12 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* EVENT PROMO */}
+        {/* CURRENT OFFERS / EVENT PROMO */}
+        <section className="mx-auto max-w-6xl px-4 py-14">
+          <EventFlyers />
+        </section>
 
       {/* SERVICES */}
       <section className="mx-auto max-w-6xl px-4 pb-14">
@@ -693,7 +702,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* EVENT PROMO */}
+          
           
 
           {/* TESTIMONIALS + SURVEY CTA */}
