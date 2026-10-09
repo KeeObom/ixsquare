@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const flyers = [
   {
-    src: "/images/event/qatar_package1.jpeg",
+    src: "/images/event/qatar_package3.jpeg",
     alt: "DiAnixSquare Qatar Package",
   },
   {
